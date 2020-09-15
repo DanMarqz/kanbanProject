@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+#col{
+  margin-top: 3%;
+  border: 1px solid lightseagreen;
+  height: 750px;
+  width: 25%;
+}
+
+#col h2{
+  text-align: center;
+}
+
+.col-1,
+.col-2,
+.col-3{
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.clearfix{
+  float:none;
+  clear: both;
+}
+
+.task{
+  width: 240px;
+  height: 170px;
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 75%;
+  border: 2px black solid;
+  margin: 3px;
+}
+
+.task-name{
+  text-align: center; 
+  margin: 0;
+  cursor: move;
+}
+
+.task-name:hover{
+  background:pink;
+}
+
+.task-description{
+  border: none;
+  margin-left: 3px;
+  margin-top: 3px;
+  resize: none;
+  width: 95%;
+  height: 80%;
+  min-width: 30px;
+  min-height: 30px;
+}
