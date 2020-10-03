@@ -4,15 +4,52 @@
   padding: 0px;
 }
 
+body{
+  background-color: #444;
+}
+
+h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+button{
+  margin-left: 48%;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 12px;
+  background: #444;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+button:hover{
+  background: white;
+  color: #444;
+  cursor: pointer;
+}
+
 #col{
   margin-top: 3%;
-  border: 1px solid lightseagreen;
+  background-color: white;
+  border: 2px solid pink;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   height: 750px;
+  min-height: 420px;
+  max-height: 750px;
   width: 25%;
+  min-width: 20%;
+  max-width: 40%;
 }
 
 #col h2{
   text-align: center;
+  border: 1px solid lightpink;
+  background-color: lightpink;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .col-1,
@@ -36,6 +73,7 @@
   max-width: 75%;
   border: 2px black solid;
   margin: 3px;
+  background-color: white;
 }
 
 .task-name{

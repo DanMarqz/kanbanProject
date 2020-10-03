@@ -1,6 +1,7 @@
 $(document).ready(function () {
   // Tooltip for button
   $(document).tooltip();
+  $('.col-1, .col-2, .col-3').resizable();
 
   // Function to do draggable and resizable tasks
   function dragTask(){
