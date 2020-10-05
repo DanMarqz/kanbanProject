@@ -4,13 +4,9 @@
   padding: 0px;
 }
 
-body{
-  background-color: #444;
-}
-
 h1{
   text-align: center;
-  color: aliceblue;
+  color: #444;
 }
 
 button{
@@ -18,7 +14,7 @@ button{
   margin-top: 20px;
   padding: 5px;
   font-size: 12px;
-  background: #444;
+  background: navy;
   border: 1px solid #bbb;
   border-radius: 20px;
   color: aliceblue;
@@ -26,14 +22,14 @@ button{
 
 button:hover{
   background: white;
-  color: #444;
+  color: navy;
   cursor: pointer;
 }
 
 #col{
   margin-top: 3%;
-  background-color: white;
-  border: 2px solid pink;
+  background-color: whitesmoke;
+  border: 2px solid navy;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   height: 750px;
@@ -45,9 +41,10 @@ button:hover{
 }
 
 #col h2{
+  color: aliceblue;
   text-align: center;
-  border: 1px solid lightpink;
-  background-color: lightpink;
+  border: 1px solid navy;
+  background-color: navy;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -61,33 +58,38 @@ button:hover{
 }
 
 .clearfix{
-  float:none;
+  float: none;
   clear: both;
 }
 
 .task{
+  position: absolute;
+  z-index: 100;
   width: 240px;
   height: 170px;
   min-width: 100px;
   min-height: 100px;
   max-width: 75%;
-  border: 2px black solid;
+  border: 1px navy solid;
+  border-bottom-right-radius: 13px;
   margin: 3px;
-  background-color: white;
 }
 
 .task-name{
   text-align: center; 
   margin: 0;
   cursor: move;
+  background: #444;
 }
 
 .task-name:hover{
-  background:pink;
+  background:navy;
+  color: aliceblue;
 }
 
 .task-description{
-  border: none;
+  border: none; 
+  border-bottom-right-radius: 15px;
   margin-left: 3px;
   margin-top: 3px;
   resize: none;
